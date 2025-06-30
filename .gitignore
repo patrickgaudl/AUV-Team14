@@ -1,1 +1,9 @@
 data
+
+# only keep model itself and not other files
+models/*
+!models/yolov8s/
+models/yolov8s/*
+!models/yolov8s/weights/
+models/yolov8s/weights/*
+!models/yolov8s/weights/best.pt
